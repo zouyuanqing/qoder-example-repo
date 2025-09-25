@@ -1,0 +1,9 @@
+# Requirements for Qoder Example Project
+
+# This is a simple example project, so we don't have many dependencies
+# In a real project, you would list your Python package dependencies here
+
+# Example format:
+# requests==2.28.1
+# flask==2.2.2
+# numpy>=1.21.0
