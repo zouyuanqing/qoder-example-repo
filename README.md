@@ -6,6 +6,7 @@ This is an example repository created through Qoder IDE to demonstrate GitHub to
 
 ```
 .
+├── CONTRIBUTING.md
 ├── README.md
 ├── config.py
 ├── requirements.txt
@@ -19,6 +20,7 @@ This is an example repository created through Qoder IDE to demonstrate GitHub to
 
 ## Files Description
 
+- `CONTRIBUTING.md` - Contribution guidelines for the project
 - `README.md` - This file containing project information
 - `config.py` - Configuration settings for the project
 - `requirements.txt` - Python package dependencies
@@ -42,6 +44,23 @@ This repository serves as a demonstration of GitHub API usage through Qoder IDE 
 1. Create a function that greets users
 2. Handle user input
 3. Structure a simple Python project
+4. Parse command line arguments
+
+### Command Line Usage
+
+The example script supports command line arguments:
+
+```bash
+python src/example.py --name John
+```
+
+Or with the short form:
+
+```bash
+python src/example.py -n John
+```
+
+If no name is provided, the script will prompt for input.
 
 ## Running Tests
 
@@ -60,8 +79,6 @@ python -m pytest tests/
 ## Example Output
 
 ```
-Welcome to the Qoder example repository!
-What's your name? John
 Hello, John! Welcome to the Qoder example repository.
 ```
 
@@ -73,6 +90,9 @@ Through this example, we've demonstrated how to use Qoder's GitHub tools to:
 2. Add and update files
 3. Create directory structures
 4. View repository contents
+5. Create and manage branches
+6. Create and merge pull requests
+7. Create and manage issues
 
 ## License
 
